@@ -22,11 +22,11 @@ public class Utils {
 	
 	/**
 	 * Tries to find the closest matching string in the array to the
-	 * string given. If no string matches by at least 50%, then no
+	 * string given. If no string matches by at least 25%, then no
 	 * string is returned.
 	 * @param arr The array of strings to test.
 	 * @param test The string to test against.
-	 * @return The string with at least 50% characters matching, or
+	 * @return The string with at least 25% characters matching, or
 	 * null if no such string exists.
 	 */
 	public static String closestMatching(String[] arr, String test) {
@@ -44,7 +44,7 @@ public class Utils {
 				closest = s;
 			}
 		}
-		return percentage < 0.5f ? null : closest;
+		return percentage < 0.25f ? null : closest;
 	}
 	
 }
