@@ -1,0 +1,10 @@
+name: PrivateWorlds
+version: 1.0.0
+author: Romejanic
+
+main: com.romejanic.pw.PrivateWorlds
+
+commands:
+    pw:
+        description: Base command for private worlds
+        usage: /pw
