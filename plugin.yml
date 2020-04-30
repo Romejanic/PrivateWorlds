@@ -7,4 +7,5 @@ main: com.romejanic.pw.PrivateWorlds
 commands:
     pw:
         description: Base command for private worlds
+        aliases: [privateworlds]
         usage: /pw
